@@ -1,0 +1,4 @@
+perbedaan Abstrak dan Enkapsulasi apabila dilihat dari sudut pandang data hidding. 
+hidding yang dilakukan di Abstrak yaitu method nya yang di hidding sehingga kita tidak tahu
+prosesnya seperti apa yang ada di dalam method tersebut tersebut.
+sedangkan untuk Enkapsulasi hidding yang dilakukan yaitu berlaku pada instance Variabelnya.
