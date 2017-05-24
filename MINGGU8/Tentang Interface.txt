@@ -1,0 +1,2 @@
+Dengan adanya interface ini akan lebih mempermudah sistem analyst dalam memebuat konsep aplikasi,interface ini adalah blueprint aplikasi.
+Interface tidak berisi perintah kepada system untuk melakukan sesuatu , interface hanya memetakan apa yang harus dikirimkan dan apa yang diharapkan untuk dikembalikan.
