@@ -1,0 +1,118 @@
+Pertemuan : 1
+Materi : Konsep Dasar PBO
+Pembahasan :
+
+
+Konsep PBO
+Didalam sebuah program, terdapat sebuah objek utama yang menghidupkan objek lain.
+Misal objek utama adalah main program. Main program akan menghidupkan objek-objek lain agar program dapat berjalan.
+Misal, bojek lain adalah fungsi-fungsi/ method-method yang ada di program. Saat main program menghidupkan objek lain, main program akan tidur.
+Objek yang dihidupkan oleh objek utama akan berinteraksi dengan objek lain sampai selesai, lalu membangunkan objek utama/main program.
+
+Korelasi : Minggu1
+
+Pertemuan : 2
+Materi : Kelas dan Objek
+Pembahasan :
+
+
+Kelas merupakan suatu bentuk klarifikasi dari objek-objek yang ada di dunia ini.
+Objek-objek yang memiliki kesamaan dari segi data dan fungsi diklarifikasikan kepada kelas tertentu.
+Didalam kelas terdapat data yang dikenal sebagai atribut, dan oprasi yang dikenal sebagai method atau fungsi.
+Kelas dikatakan juga sebagai blueprint dari objeknya.
+Data dan operasi pada kelas dibungkus menjadi satu unit disebut sebagai objek.
+Objek memiliki data dan operasi yang terdefinisi di dalam kelas.
+Korelasi : Minggu1
+
+Pertemuan : 3
+Materi : Method,Konstruktor,this dan atribut
+Pembahasan :
+
+Method/function adalah sekumpulan bari program atau prosedur yang secara bersama-sama melakukan suatu task.
+Method didefinisikan di dalam kelas, terdiri dari method function dan prosedur.
+
+Parameter merupakan sebuah data dalam representasi variabel yang disematkan di dalam header sebuah method.
+Parameter digunakan untuk menampung data yang dikelola
+
+Konstruktor adalah sebuah prosedur atau aksi-aksi yang dilakukan ketika konstruktor dipanggil atau ketika sebuah objek dibuat atau diciptakan.
+
+This digunakan pada konstruktor atau method di dalam kelas untuk membedakan instance variabel dan lokal variabel.
+Korelasi : Minggu2
+
+Pertemuan : 4
+Materi : Inheritance
+Pembahasan :
+
+Inheritance memungkinkan kita membuat kelas yang diturunkan dari kelas lain.
+Inheritance juga memungkinkan untuk menggunakan ulang kode program dan mempercepat proses implementasi.
+Konsep inheritance adalah hubungan seorang ayah dan anaknya. anak memiliki data dan fungsi yang dimiliki oleh ayah,
+Tetapi ayah tidak memiliki apa yang dimiliki anak.
+Korelasi : Minggu4
+
+Pertemuan : 5
+Materi : Overiding
+Pembahasan :
+Overiding method berarti memodifikasi/mengimplement/mengupdate/menulis kembali/mengganti isi method yang sudah ada di super kelas.
+Method yang di overide adalah method yang diturunkan lewat proses inheritance dan memiliki kesaamaan dari nama maupun parameter.
+Method dengan access final dan private tidak bisa diprivate
+Korelasi : Minggu5
+
+Pertemuan : 6
+Materi : Polimorfisme
+Pembahasan :
+Polimorfisme adalah kemampuan sebuah objek yang dapat dimiliki bentuk (kelas).
+Polimorfisme terjadi ketika sebuah super kelas digunakan untuk menjadi reference objek dari sebuah sub-kelas.
+Korelasi : Minggu6
+
+Pertemuan : 7
+Materi : Abstraksi
+Pembahasan :
+abstraksi adalah proses untuk menyembunyikan detil proses yang dilakukan Hanya fungsionalitasnya saja yang dimunculkan.
+Untuk penggunaan kelas abstrak, abstrak kelas harus diturunkan kepada kelas lain.
+Korelasi : Minggu7
+
+Pertemuan : 8
+Materi : Encapsulation
+Pembahasan :
+Enkapsulasi adalah salah satu konsep penting pada OOP setelah inheritance, polyphorphism dann abstraction.
+Enkapsulasi adalah sebuah proses atau mekanisme yang membungkus data dan fungsi dari sebuah kelas manjadi sebuah unit.
+Konsep enkapsulasi juga dikenal sebagai konsep data hiding yaitu menghiden atribut dari sebuah kelas dari kelas lain.
+Korelasi : Minggu8
+
+Pertemuan : 9
+Materi : Interface
+Pembahasan :
+Interface adalah sebuah tipe referensi pada Java. Interface secara struktur serupa dengan class. Isi dari interface adalah method abstract, artinya method hanya dideklarasikan tidak ditulis secara utuh. Deklarasi method pada interface serupa dengan method pada class abstract
+Korelasi : Minggu9
+
+Pertemuan : 10
+Materi : Generic
+Pembahasan :
+Generic dikenal juga sebagai tipe data berparameter (parameterized types), yaitu tipe data yang biasanya didefinisikan di bagian argumen/parameter dan bersifat generik atau dikenali pada saat runtime.
+
+
+Jika kita memiliki data untype (bertipe Object), maka biasanya kita melakukan casting untuk mengambil nilainya. Kesalahan konversi tipe data ini pada saat runtime sangat mungkin dan sering sekali terjadi. Untuk menghindarinya inilah kita perlu menempatkan tipe data generic ini.
+Korelasi : Minggu10
+
+Pertemuan : 11
+Materi : Package
+Pembahasan :
+Package adalah sarana/cara pengelompokkan dan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library.
+
+Package juga mempengaruhi mekanisme hak akses ke kelas-kelas di dalamnya.
+
+4.2. Pengaruh Package terhadap Method main()
+
+Kelas yang mengandung method main() memilki syarat tidak berada dalam suatu package, dan hirarki posisi foldernya di atas package yang diimport.
+
+4.3. Membuat Package
+
+Ada tiga langkah untuk membuat package :
+
+Mendeklarasikan dan memberi nama package.
+Membuat struktur dan nama direktori yang sesuai dengan struktur dan nama package.
+Mengkompilasi kelas-kelas sesuai dengan packagenya masing-masing.
+4.4. Mendeklarasikan dan Memberi Nama Package
+
+Deklarasi package harus diletakkan pada bagian paling awal (sebelum deklarasi import) dari source code setiap kelas yang dibungkus package tersebut.
+Korelasi : Minggu10
